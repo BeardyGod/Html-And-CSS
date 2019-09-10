@@ -1,42 +1,26 @@
 body {
-    background-color: rgb(57, 169, 219);
-    font-family: Rubik, Arial;
+    background-color: #59CD90;
+    color: #3FA7D6;
+    font-family: "Fjalla One", Arial;
 }
 
 form {
-    text-align: center;
-    line-height: 30px;
-    height: 80%;
-    overflow: auto;
-}
-
-form hr {
-    width: 15%;
+    line-height: 25px;
 }
 
 h1 {
-    text-align: center;
+    font-size: 3em;
+    overflow: break;
 }
 
-#burger {
-    max-height: 30%;
-}
-
-#overlay {
+.overlay {
     width: 80%;
+    min-width: 30%;
     margin: 3% auto;
-    height: 95vh;
+    display: block;
+    padding: 2%;
+    height: 90vh;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 40px;
-}
-
-#logo {
-    height: 100px;
-    display: block;
-    margin: auto;
-}
-
-.toppings label,
-.cheesy label {
-    margin-right: 25px;
+    text-align: center;
 }
